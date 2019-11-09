@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="page-wrapper">
+		<!--header-->
+		<header class="page-header">
+			<!--nav-->
+			<nav class="nav">
+				<!--menu-->
+				<ul class="menu">
+					<li class="menu-item">Главная</li>
+					<li class="menu-item">ФОТО И ВИДЕО</li>
+				</ul>
+				<!--/menu-->
+
+				<!--logo-->
+				<a href="#" class="logo">Logo</a>
+				<!--/logo-->
+
+				<!--menu-->
+				<ul class="menu">
+					<li class="menu-item">Форма отзыва</li>
+					<li class="menu-item">HTML Academy</li>
+				</ul>
+				<!--/menu-->
+
+				<!--button-->
+				<button class="burger-btn">&times</button>
+				<!--/button-->
+			</nav>
+			<!--/nav-->
+		</header>
+		<!--/header-->
+		<!--contact-->
+		<section class="contact">
+			<h2 class="h-2">Оставьте свой отзыв</h2>
+			<p class="contact-desc">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами
+				достопримечательностях</p>
+			<!--form-->
+			<form action="https://echo.htmlacademy.ru" class="form" method="post">
+				<!--form-impression-->
+				<fieldset class="form__fieldset">
+					<legend class="form__title">ВАше Общее впечатление:</legend>
+					<div class="form-group">
+						<input type="radio" name="impression" value="good" id="positive" checked>
+						<label for="positive">Скорее положительное</label>
+						<br>
+						<input type="radio" name="impression" value="bad" id="negative">
+						<label for="negative">Скорее отрицательное</label>
+						<br>
+						<input type="radio" name="impression" value="neutral" id="neutral">
+						<label for="neutral">Затрудняюсь ответить</label>
+					</div>
+				</fieldset>
+				<!--/form-impression-->
+				<!--form-introduce-->
+				<fieldset class="form__fieldset">
+					<legend class="form__title">Представьтесь:</legend>
+					<div class="form-group">
+						<label for="name">Имя*:</label>
+						<input type="text" placeholder="Петр" id="name">
+						<label for="surname">Фамилия*:</label>
+						<input type="text" placeholder="Иванов" id="surname">
+						<label for="fathers-name">Отчество*:</label>
+						<input type="text" placeholder="Александрович" id="fathers-name">
+					</div>
+					</legend>
+				</fieldset>
+				<!--/form-introduce-->
+				<!--form-contact-->
+				<fieldset class="form__fieldset">
+					<legend class="form__title">Контактная информация:</legend>
+					<div class="form-group">
+						<!--Как сделать кнопки "Позвонить" и "Отправить"? сабмит или баттон?--->
+						<label for="phone">Телефон*:</label>
+						<input type="tel" placeholder="Введите телефон">
+						<label for="email">Электронная почта*:</label>
+						<input type="text" placeholder="Введите e-mail">
+					</div>
+					</legend>
+				</fieldset>
+				<!--/form-contact-->
+				<!--form-attraction-->
+				<fieldset class="form__fieldset">
+					<legend class="form__title">посещенные достопримечательности:</legend>
+					<div class="form-group">
+						<input type="checkbox" name="bridge" id="bridge">
+						<label for="">Мост Дьявола</label>
+						<input type="checkbox" name="mountain" id="mountain">
+						<label for="">Гора-Колокол</label>
+						<input type="checkbox" name="park" id="park">
+						<label for="">Слайд-парк</label>
+						<input type="checkbox" name="rock" id="rock">
+						<label for="">Красные скалы</label>
+					</div>
+					</legend>
+				</fieldset>
+				<!--/form-attraction-->
+				<!--form-feedback-->
+				<fieldset class="form__fieldset">
+					<legend class="form__title">Опишите свои эмоции:</legend>
+					<div class="form-group">
+						<textarea name="describe" id="describe" cols="90"
+							rows="8">Опишите подробно все свои восторги </textarea>
+					</div>
+					</legend>
+				</fieldset>
+				<!--/form-feedback-->
+				<!-- form-wrap -->
+				<div class="form-wrap">
+					<button type="submit" class="btn btn__form">ОТПРАВИТЬ ОТЗЫВ</button>
+					<p class="form__req">* — обязательные поля</p>
+				</div>
+				<!-- /.form-wrap -->
+			</form>
+			<!--/form-->
+		</section>
+		<!--/contact-->
+		<!--footer-->
+		<footer class="footer">
+			<p class="hash">#visitSEDONA</p>
+			<ul class="social-list">
+				<li class="social-item">tw</li>
+				<li class="social-item">fb</li>
+				<li class="social-item">yt</li>
+			</ul>
+			<p class="property">Разработано<img src="" alt=""></p>
+		</footer>
+		<!--/footer-->
+	</div>
+</body>
+
+</html>
